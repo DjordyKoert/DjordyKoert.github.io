@@ -1,6 +1,9 @@
 body {
 	font-family: Arial !important;
-	background:white;
+    background: url("Img/HZ_beeldmerk.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 #browse {
     margin: 0;
@@ -26,8 +29,17 @@ body {
 #browseurl a:hover {
 	background-color: #3db1e7;
 }
-
-#browse > li:last-child
-{
+#curpage{
+    float: center;
+    text-align: center;
+    color: white;
+    font-size:100px;
+    text-decoration: underline;
+}
+#curpagespan{
+    background-color: #3378e0;
+    opacity: 0.5;
+}
+#browse > li:last-child{
     float:right;
 }
