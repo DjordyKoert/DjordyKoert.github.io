@@ -2,16 +2,14 @@ body {
 	font-family: Arial !important;
 	background:white;
 }
-#UrlBrowse {
+ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(60, 12, 233);
+    background-color: #3378e0;
     border: 1px solid white;
     border-bottom: none;
     WIDTH:100%;
-}
-ul {
     list-style-type: none;
 }
 li {
@@ -27,9 +25,10 @@ li a {
 }
 
 li a:hover {
-	background-color: #CC393F;
+	background-color: #3db1e7;
 }
 
-.profile{
-    float: right;
+ul > li:last-child
+{
+    float:right;
 }
