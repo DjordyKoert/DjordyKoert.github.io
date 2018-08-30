@@ -2,7 +2,7 @@ body {
 	font-family: Arial !important;
 	background:white;
 }
-ul {
+#browse {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -12,23 +12,22 @@ ul {
     WIDTH:100%;
     list-style-type: none;
 }
-li {
+#browseurl {
     float: left;
 }
 
-li a {
+#browseurl a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-li a:hover {
+#browseurl a:hover {
 	background-color: #3db1e7;
 }
 
-ul > li:last-child
+#browse > li:last-child
 {
     float:right;
 }
