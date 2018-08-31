@@ -4,8 +4,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-
 }
+
 #browse {
     margin: 0;
     padding: 0;
@@ -15,6 +15,7 @@ body {
     border-bottom: none;
     WIDTH:100%;
     list-style-type: none;
+    font-size: 14pt;
 }
 #browseurl {
     float: left;
@@ -47,14 +48,16 @@ body {
 
 #txttitel {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
+    display: inline;
 }
-#txt1 {
-    background-color: #4b4b4b46 ;
-    opacity: 0.7;
+#txt {
+    background-color: rgba(104, 96, 96, 0.4);
+    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
+    overflow: hidden;
+    font-size: 16pt;
 }
-#txtimage img{
-    float: right;
-    height: 100px;
-    width: 500p
+#txtimg {
+    background-color: rgba(104, 96, 96, 0.4);
+    padding: 8px;
 }

@@ -6,28 +6,35 @@
     </head>
 
     <body>
-         <ul id="browse">
+        <ul id="browse">
             <li id="browseurl"><a href="index.php">Home</a></li>
             <li id="browseurl"><a href="introductie.php">Persoonlijke introductie</a></li>
             <li id="browseurl"><a href="profile.php">Profile</a></li>
-         </ul>
+        </ul>
 
-         <div id="curpage">
+        <div id="curpage">
             <span id="curpagespan">
                 Home
             </span>
         </div>
+        <br>
 
-        <div id="txt1">
+        <div id="txt">
+            <img id="txtimg" style="width:20%;height:40%;float:right;" src="Img/oof.png">
             <div id="txttitel">
                 Waarom het HBO bij mij past.
             </div>
+            
             <span id="txtspan">
-            <?php include("txt/Hbo_past.txt"); ?>
-            <span>
+                <?php include("txt/Hbo_past.txt"); ?>
+        	</span>
         </div>
-        <div id="txtimg">
-            <img id="txtimg" style="width:30px;height:30px;float:right;" src="Img/Ik.jpg">
+        <br>
+        <div id="txt">
+            <div id="txttitel">
+                Waarom de opleiding bij mijn persoonlijkheid past.
+            </div>
+            <?php include("txt/Opleiding.txt"); ?>
         </div>
     </body>
 </html>
