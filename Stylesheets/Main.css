@@ -27,7 +27,8 @@ body {
     text-decoration: none;
 }
 #browseurl a:hover {
-	background-color: #3db1e7;
+    background-color: #0f6e9b;
+    text-decoration: underline;
 }
 #curpage{
     float: center;
@@ -37,9 +38,22 @@ body {
     text-decoration: underline;
 }
 #curpagespan{
-    background-color: #3378e0;
-    opacity: 0.5;
+    background-color: #082dce;
 }
 #browse > li:last-child{
     float:right;
+}
+
+#txtspan{
+    background-color: #4b4b4b46 ;
+    opacity: 0.7;
+}
+#txttitel {
+    font-weight: bold;
+}
+
+#txtimage {
+    float: right;
+    width: 2%;
+    height: 2%;
 }
