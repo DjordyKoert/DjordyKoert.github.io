@@ -7,9 +7,9 @@
 
     <body>
          <ul id="browse">
-            <li id="browseurl"><a href="index.html">Home</a></li>
-            <li id="browseurl"><a href="introductie.html">Persoonlijke introductie</a></li>
-            <li id="browseurl"><a href="profile.html">Profile</a></li>
+            <li id="browseurl"><a href="index.php">Home</a></li>
+            <li id="browseurl"><a href="introductie.php">Persoonlijke introductie</a></li>
+            <li id="browseurl"><a href="profile.php">Profile</a></li>
          </ul>
 
          <div id="curpage">

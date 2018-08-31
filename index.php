@@ -7,9 +7,9 @@
 
     <body>
          <ul id="browse">
-            <li id="browseurl"><a href="index.html">Home</a></li>
-            <li id="browseurl"><a href="introductie.html">Persoonlijke introductie</a></li>
-            <li id="browseurl"><a href="profile.html">Profile</a></li>
+            <li id="browseurl"><a href="index.php">Home</a></li>
+            <li id="browseurl"><a href="introductie.php">Persoonlijke introductie</a></li>
+            <li id="browseurl"><a href="profile.php">Profile</a></li>
          </ul>
 
          <div id="curpage">
@@ -20,13 +20,14 @@
 
         <div id="txt1">
             <div id="txttitel">
-                <span id="txtspan">
-                        Waarom het HBO bij mij past.
-                </span>
+                Waarom het HBO bij mij past.
             </div>
+            <span id="txtspan">
+            <?php include("txt/Hbo_past.txt"); ?>
+            <span>
         </div>
         <div id="txtimg">
-            <img src="Img/ik.jpg">
+            <img id="txtimg" style="width:30px;height:30px;float:right;" src="Img/Ik.jpg">
         </div>
     </body>
 </html>
