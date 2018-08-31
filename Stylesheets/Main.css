@@ -1,5 +1,5 @@
 body {
-	font-family: Arial !important;
+	font-family: Arial;
     background: url("../Img/HZ_beeldmerk.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -36,7 +36,7 @@ body {
     float: center;
     text-align: center;
     color: white;
-    font-size:100px;
+    font-size: 8vw;
     text-decoration: underline;
 }
 #curpagespan{
@@ -46,9 +46,13 @@ body {
     float:right;
 }
 
+#txtimg {
+    background-color: rgba(104, 96, 96, 0.4);
+    padding: 8px;
+}
 #txttitel {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 22pt;
     display: inline;
 }
 #txt {
@@ -57,7 +61,28 @@ body {
     overflow: hidden;
     font-size: 16pt;
 }
-#txtimg {
-    background-color: rgba(104, 96, 96, 0.4);
-    padding: 8px;
+/*For small screens */
+@media only screen and (max-width: 500px) {
+    #browse {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #3378e0;
+        border: 1px solid white;
+        border-bottom: none;
+        WIDTH:100%;
+        list-style-type: none;
+        font-size: 8pt;
+    }
+    #txttitel {
+        font-weight: bold;
+        font-size: 14pt;
+        display: inline;
+    }
+    #txt {
+        background-color: rgba(104, 96, 96, 0.4);
+        box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
+        overflow: hidden;
+        font-size: 10pt;
+    }
 }
