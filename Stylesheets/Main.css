@@ -31,26 +31,9 @@ body {
 #browseurl a:hover {
     background-color: #0f6e9b;
     text-decoration: underline;
-    cursor: pointer;
 }
-#browse > li:last-child{
+#browse >li:last-child {
     float:right;
-}
-/*Dropdown*/
-#dropdown {
-    float: right;
-}
-
-#dropdown a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-#dropdown a:hover {
-    background-color: #0f6e9b;
-    text-decoration: underline;
 }
 
 #curpage{
