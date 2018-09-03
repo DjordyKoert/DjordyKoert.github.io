@@ -21,7 +21,7 @@ body {
     float: left;
 }
 
-#browseurl a {
+#browseurl a,#browseurlD a {
     display: block;
     color: white;
     text-align: center;
@@ -32,8 +32,13 @@ body {
     background-color: #0f6e9b;
     text-decoration: underline;
 }
-#browse >li:last-child {
+/*DropDown*/
+#browseurlD {
     float:right;
+}
+#browseurlD a:hover{
+    background-color: #0f6e9b;
+    text-decoration: underline;
 }
 
 #curpage{
