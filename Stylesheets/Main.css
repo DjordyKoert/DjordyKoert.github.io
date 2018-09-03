@@ -40,7 +40,7 @@ body {
     float: center;
     text-align: center;
     color: white;
-    font-size: 8vw;
+    font-size: 7vw;
     text-decoration: underline;
 }
 #curpagespan{
@@ -65,8 +65,7 @@ body {
 /*Current page sub */
 #subcurpage {
     text-align: center;
-    font-size: 1%;
-    cursor:;
+    font-size: 110%;
 }
 #subcurpage a {
     color: black;
