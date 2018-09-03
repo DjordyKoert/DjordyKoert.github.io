@@ -13,7 +13,7 @@ body {
     background-color: #3378e0;
     border: 1px solid white;
     border-bottom: none;
-    WIDTH:100%;
+    width:100%;
     list-style-type: none;
     font-size: 14pt;
 }
@@ -39,12 +39,11 @@ body {
 #curpage{
     float: center;
     text-align: center;
-    color: white;
+    color: rgb(253, 253, 253);
     font-size: 7vw;
-    text-decoration: underline;
 }
 #curpagespan{
-    background-color: #082dce;
+    background-image: linear-gradient(#3378e0,white);
 }
 
 #txtimg {
