@@ -61,6 +61,20 @@ body {
     overflow: hidden;
     font-size: 16pt;
 }
+/*studiemonitor table*/
+.TBniet {
+    color: gray;
+}
+.TBv {
+    color: rgb(41, 226, 24);
+}
+.TBonv {
+    color: rgb(230, 34, 34);
+}
+table, td ,th {
+    border: 1px solid black;
+    text-align: center;
+}
 /*Current page sub */
 .subcurpage {
     text-align: center;
