@@ -6,7 +6,6 @@ body {
     background-position: center; 
     height: auto;
 }
-
 .browse {
     margin: 0;
     padding: 0.8%;
@@ -77,6 +76,14 @@ body {
     padding: 14px 16px;
     text-decoration: underline;
 }
+/*Animations*/
+@keyframes Bodymooi {
+    2% {transform: rotate(11352deg)}
+    19% {transform: skew(1413deg, 3199deg);}
+    56% {transform: skew(1314deg, 33131deg);}
+    76% {transform: skew(13314deg, 335131deg);}
+    100% {transform: skew(1803deg, 278deg);}
+}
 /*For small screens */
 @media only screen and (max-width: 500px) {
     .browse {
@@ -101,4 +108,5 @@ body {
         overflow: hidden;
         font-size: 10pt;
     }
+    
 }
