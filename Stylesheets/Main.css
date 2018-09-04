@@ -4,86 +4,79 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    height: auto;
 }
 
-#browse {
+.browse {
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding: 0.8%;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #3378e0;
     border: 1px solid white;
     border-bottom: none;
     width:100%;
     list-style-type: none;
     font-size: 14pt;
+    position: -webkit-sticky;
+    position: sticky;
 }
-#browseurl {
-    float: left;
+.browseurlD {
+    align-self: flex-end;
 }
-
-#browseurl a,#browseurlD a {
-    display: block;
+.browseurl a,.browseurlD a {
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 11px 13px;
     text-decoration: none;
 }
-#browseurl a:hover {
+.browseurl a:hover, .browseurlD a:hover {
     background-color: #0f6e9b;
     text-decoration: underline;
 }
-/*DropDown*/
-#browseurlD {
-    float:right;
-}
-#browseurlD a:hover{
-    background-color: #0f6e9b;
-    text-decoration: underline;
-}
-
-#curpage{
+.curpage{
     float: center;
     text-align: center;
     color: rgb(253, 253, 253);
     font-size: 7vw;
 }
-#curpagespan{
+.curpagespan{
     background-image: linear-gradient(#3378e0,white);
 }
 
-#txtimg {
+.txtimg {
     background-color: rgba(104, 96, 96, 0.4);
     padding: 8px;
 }
-#txttitel {
+.txttitel {
     font-weight: bold;
     font-size: 22pt;
     display: inline;
 }
-#txt {
+.txt {
     background-color: rgba(104, 96, 96, 0.4);
     box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
     overflow: hidden;
     font-size: 16pt;
 }
 /*Current page sub */
-#subcurpage {
+.subcurpage {
     text-align: center;
     font-size: 110%;
 }
-#subcurpage a {
+.subcurpage a {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
 }
-#subcurpage a:hover {
+.subcurpage a:hover {
     color: rgb(26, 24, 24);
     padding: 14px 16px;
     text-decoration: underline;
 }
 /*For small screens */
 @media only screen and (max-width: 500px) {
-    #browse {
+    .browse {
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -94,12 +87,12 @@ body {
         list-style-type: none;
         font-size: 8pt;
     }
-    #txttitel {
+    .txttitel {
         font-weight: bold;
         font-size: 14pt;
         display: inline;
     }
-    #txt {
+    .txt {
         background-color: rgba(104, 96, 96, 0.4);
         box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
         overflow: hidden;

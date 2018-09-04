@@ -1,8 +1,8 @@
 function Rnumber() {
     var result = prompt("enter getal:");
     var R = Math.floor(Math.random() * 10);
-    if (!result) return result = prompt("Geen nummer! \n enter getal:");
-    if (isNaN(result)) return result = prompt("Geen nummer! \n enter getal:");
+    if (!result) return Rnumber();
+    if (isNaN(result)) return Rnumber();
     result = parseInt(result);
 /*    var Rbool;
     var Lijst_ding = {
@@ -12,7 +12,9 @@ function Rnumber() {
     }
     if (R < 0.4) Rbool = true;
     if (R > 0.8) Rbool = true; */
-    if (result == R) window.alert("Lucky Number: " + R + "\n YOU WIN!");
+    if (result == R) {
+        window.alert("Lucky Number: " + R + "\n YOU WIN!");
+    }
     if (result !== R) window.alert("Lucky Number: " + R + "\n YOU LOSE!");
 /*    switch (Rbool) {
         case true:
