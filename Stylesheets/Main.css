@@ -16,10 +16,9 @@ body {
     border: 1px solid white;
     border-bottom: none;
     width:100%;
+    justify-content: flex-start;
     list-style-type: none;
     font-size: 14pt;
-    position: -webkit-sticky;
-    position: sticky;
 }
 .browseurlD {
     align-self: flex-end;
@@ -35,7 +34,8 @@ body {
     text-decoration: underline;
 }
 .curpage{
-    float: center;
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
     color: rgb(253, 253, 253);
     font-size: 7vw;
@@ -47,6 +47,9 @@ body {
 .txtimg {
     background-color: rgba(104, 96, 96, 0.4);
     padding: 8px;
+    width:20%;
+    height:40%;
+    float:right;
 }
 .txttitel {
     font-weight: bold;
