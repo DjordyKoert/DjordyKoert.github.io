@@ -38,3 +38,9 @@ function getCookie(cwins) {
     }
     return '';
 }
+
+function xmlload() {
+    if (confirm("Dit zal de sitemap laden \nwilt u verdergaan?")) {
+        window.location.href = "sitemap.xml";
+    }
+}

@@ -19,18 +19,16 @@ body {
     list-style-type: none;
     font-size: 14pt;
 }
-.browseurlD {
-    align-self: flex-end;
-}
-.browseurl a,.browseurlD a {
+.browseurl a{
     color: white;
     text-align: center;
     padding: 11px 13px;
     text-decoration: none;
 }
-.browseurl a:hover, .browseurlD a:hover {
+.browseurl a:hover{
     background-color: #0f6e9b;
     text-decoration: underline;
+    cursor: pointer;
 }
 .curpage{
     display: flex;
