@@ -75,6 +75,10 @@ table, td ,th {
     border: 1px solid black;
     text-align: center;
 }
+.tblstudiemon {
+    width: 100%;
+    text-align: center;
+}
 /*Current page sub */
 .subcurpage {
     text-align: center;
@@ -91,7 +95,7 @@ table, td ,th {
     text-decoration: underline;
 }
 /*Animations*/
-@keyframes Bodymooi {
+@keyframes Trip_Anim {
     2% {transform: rotate(11352deg)}
     19% {transform: skew(1413deg, 3199deg);}
     56% {transform: skew(1314deg, 33131deg);}
