@@ -46,5 +46,5 @@ function xmlload() {
 }
 
 function imgeaster() {
-    document.getElementById("txtimg").classList.add("txtimg_anim");
+    document.getElementsByClassName("txtimg")[0].id = "txtimg_anim";
 }
