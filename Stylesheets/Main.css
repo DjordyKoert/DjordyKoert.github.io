@@ -41,7 +41,7 @@ body {
     background-image: linear-gradient(#3378e0,white);
 }
 
-.txtimg {
+#txtimg {
     background-color: rgba(104, 96, 96, 0.4);
     padding: 8px;
     width:20%;
@@ -91,6 +91,9 @@ table, td ,th {
     color: rgb(26, 24, 24);
     padding: 14px 16px;
     text-decoration: underline;
+}
+.txtimg_anim {
+    animation: Trip_Anim 40s
 }
 /*Animations*/
 @keyframes Trip_Anim {

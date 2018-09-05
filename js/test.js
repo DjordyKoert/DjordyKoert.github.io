@@ -44,3 +44,7 @@ function xmlload() {
         window.location.href = "sitemap.xml";
     }
 }
+
+function imgeaster() {
+    document.getElementById("txtimg").classList.add("txtimg_anim");
+}
