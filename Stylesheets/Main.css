@@ -48,7 +48,7 @@ body {
     height:40%;
     float:right;
 }
-.txttitel {
+.txttitel{
     font-weight: bold;
     font-size: 22pt;
     display: inline;
@@ -58,6 +58,15 @@ body {
     box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
     overflow: hidden;
     font-size: 16pt;
+}
+
+.txtbron {
+    background-color: rgba(145, 138, 138, 0.4);
+    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
+    overflow: hidden;
+    font-size: 22pt;
+    width:30%;
+    margin: 1%;
 }
 /*studiemonitor table*/
 .TBniet {
@@ -104,7 +113,7 @@ table, td ,th {
     100% {transform: skew(1803deg, 278deg);}
 }
 /*For small screens */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 575px) {
     .browse {
         margin: 0;
         padding: 0;
@@ -126,6 +135,14 @@ table, td ,th {
         box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
         overflow: hidden;
         font-size: 10pt;
+    }
+    .txtbron {
+        background-color: rgba(145, 138, 138, 0.4);
+        box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
+        overflow: hidden;
+        font-size: 12pt;
+        width:40%;
+        margin: 1%;
     }
     
 }
