@@ -58,6 +58,8 @@ body {
     box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
     overflow: hidden;
     font-size: 16pt;
+    padding: 1%;
+    margin: 1%;
 }
 
 .txtbron {
@@ -67,6 +69,14 @@ body {
     font-size: 22pt;
     width:30%;
     margin: 1%;
+}
+.citaat {
+    border: 2px dotted;
+    padding: 0.4%;
+}
+.citaatAPA {
+    font-style: italic;
+    font-weight: bold;
 }
 /*studiemonitor table*/
 .TBniet {

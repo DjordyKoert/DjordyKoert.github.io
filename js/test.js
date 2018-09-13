@@ -1,3 +1,4 @@
+//Code
 function Rnumber() {
     var result = prompt("enter getal:");
     var R = Math.floor(Math.random() * 10);
